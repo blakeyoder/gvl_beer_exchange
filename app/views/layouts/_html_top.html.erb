@@ -1,0 +1,17 @@
+  <head>
+    <title>Greenville Beer Exchange</title>
+    <%= csrf_meta_tags %>
+    <% if request.ssl? %>
+      <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' %>
+      <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+      <%= stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' %>
+      <%= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js' %>
+    <% else %> 
+      <%= javascript_include_tag 'http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' %>
+      <%= stylesheet_link_tag 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
+      <%= stylesheet_link_tag 'http://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' %>
+      <%= javascript_include_tag 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js' %>
+    <% end %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
