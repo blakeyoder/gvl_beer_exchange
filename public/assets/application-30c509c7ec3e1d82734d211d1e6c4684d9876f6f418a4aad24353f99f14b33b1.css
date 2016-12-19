@@ -1,0 +1,246 @@
+/* line 5, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+body {
+  background: #ebebeb;
+}
+
+/* line 9, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 23, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#hero1 {
+  background: url(/images/../assets/landing-bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 29, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.hero, .content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+/* line 35, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.inner {
+  min-height: 600px;
+  position: relative;
+}
+
+/* line 41, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.copy {
+  position: absolute;
+  top: 50%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+}
+
+/* line 49, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.hero h1, .hero p {
+  color: #fff;
+}
+
+/* line 53, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.content h1, .content p {
+  color: #333;
+}
+
+/* line 57, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+h1 {
+  margin: 0px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+/* line 65, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+/* line 71, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.home-container {
+  margin-top: 50px;
+}
+
+/* line 75, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.rounded-box {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* line 80, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.img-responsive {
+  margin-bottom: 30px;
+}
+
+/* line 85, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#header h1 {
+  text-align: center;
+  margin: 30px;
+}
+/* line 4, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 9, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+#landing-body {
+  background: url(/images/../assets/landing-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* line 17, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+.centered {
+  margin-top: 200px;
+}
+
+/* line 22, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+#header-text h1 {
+  font-family: Futura;
+  font-size: 50px;
+  color: white;
+}
+/* line 27, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+#header-text p {
+  font-family: Futura;
+  font-size: 16px;
+  color: white;
+}
+
+/* line 34, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+.landing-button {
+  background: #E36556;
+  color: white;
+  text-decoration: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*site wide fix on the nav bar*/
+
+
+.no-margin {
+    margin-bottom: 0px;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+/*footer styles*/
+.full {
+    width: 100%;	
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #78828D
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	height: 30px;
+	clear: both;
+	width: 100%;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
