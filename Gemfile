@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'rest-client'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
@@ -40,7 +42,6 @@ group :development, :test do
 end
 
 group :production, :staging do
-  gem 'pg'
   gem 'rails_12factor'
 end
 
@@ -52,6 +53,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'pry-byebug'
+  gem 'pry-rails'
   gem 'byebug'
 end
 

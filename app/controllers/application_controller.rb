@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
       Order.new
     end
   end
+
+  def disable_cart_partial
+    @disable_cart_partial = true
+  end
 end
