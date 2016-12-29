@@ -7,16 +7,16 @@ class SquareConnect
     attr_accessor :name
 
     @@api_key = 'Bearer sq0atp-HMKVjMfhw-nluwIJj2C1dQ'
-    
+
     def get_locations
         # return all locations for a given business
         begin
             locations = RestClient.get 'https://connect.squareup.com/v2/locations', {:Authorization => @@api_key}
         rescue => exception
-            
+
         end
     end
-    
+
     def get_all_items
         begin
             items = RestClient.get 'https://connect.squareup.com/v1/BSKDMCM5AWEB3/items', {:Authorization => @@api_key}
@@ -31,7 +31,7 @@ class SquareConnect
                     filtered_item.price = 5.00
                 end
 
-                filtered_item.save
+                # filtered_item.save
             end
         rescue => exception
 
@@ -41,5 +41,5 @@ class SquareConnect
     def total_price(sales_tax, unit_price)
         sales_tax * unit_price
     end
-        
+
 end
