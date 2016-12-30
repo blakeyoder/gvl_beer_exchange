@@ -238,6 +238,10 @@ p {
   }
 }
 
+.inner-box {
+  padding: 20px;
+}
+
 .small-content-box-3 {
   background: image-url('../assets/big_sale.png');
   background-size:cover;
@@ -263,7 +267,6 @@ p {
   height: 220px;
   background-color: rgba(0,0,0,0.42);
   border-radius: 5px;
-  margin-left: 20px;
   text-align: right;
   div {
     font-family: 'Montserrat', sans-serif;
@@ -296,16 +299,4 @@ p {
 
 .margin-top {
   margin-top: 20px;
-}
-
-#header {
-  h1 {
-    margin-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 48px;
-    color: #FFFFFF;
-    text-align: center;
-  }
 }
