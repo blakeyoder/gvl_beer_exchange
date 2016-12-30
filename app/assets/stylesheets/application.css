@@ -47,13 +47,11 @@ body {
 	display: block;
 }
 .footer {
-	background: #EDEFF1;
-	height: auto;
+  height: 475px;
+  width: 100%;
+  background-color: #22201F;
 	padding-bottom: 30px;
 	position: relative;
-	width: 100%;
-	border-bottom: 1px solid #CCCCCC;
-	border-top: 1px solid #DDDDDD;
 }
 .footer p {
 	margin: 0;
@@ -92,29 +90,7 @@ body {
 	margin-bottom: 0 !important;
 	padding-bottom: 0;
 }
-.newsletter-box input#appendedInputButton {
-	background: #FFFFFF;
-	display: inline-block;
-	height: 30px;
-	clear: both;
-	width: 100%;
-}
-.newsletter-box .btn {
-	border: medium none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	-ms-border-radius: 3px;
-	border-radius: 3px;
-	display: inline-block;
-	height: 40px;
-	padding: 0;
-	width: 100%;
-	color: #fff;
-}
-.newsletter-box {
-	overflow: hidden;
-}
+
 .bg-gray {
 	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
 	box-shadow: 0 1px 0 #B4B3B3;

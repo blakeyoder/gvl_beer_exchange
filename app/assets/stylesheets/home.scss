@@ -55,6 +55,7 @@ header{
   line-height: 48px;
   letter-spacing: 3px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 #hero-sub-text {
@@ -121,7 +122,7 @@ p {
 }
 
 .about-well {
-  min-height: 407px;
+  height: auto;
   background-color: #2F3439;
   border-radius: 5px;
   border: 0;
@@ -138,5 +139,173 @@ p {
     font-size: 14px;
     line-height: 22px;
     color: #FFFFFF;
+  }
+}
+
+.hours-well {
+  background-color: #2F3439;
+  border-radius: 5px;
+  border: 0;
+  #hours {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  span {
+    font-family: "PT Serif";
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}
+
+.small-content-box {
+  background: image-url('../assets/new_in_stock.png');
+  background-size:cover;
+  background-position:center center;
+  height: 220px;
+  background-color: rgba(0,0,0,0.36);
+  border-radius: 5px;
+  text-align: center;
+  div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 45%;
+    @media screen and (max-width: 440px) {
+      font-size: 20px;
+      margin-top: 70%;
+    }
+  }
+}
+
+.small-content-box-2 {
+  background-size:cover;
+  background-position:center center;
+  height: 220px;
+  background-color: #2F3439;
+  border-radius: 5px;
+  text-align: center;
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
+
+#bottle-shop-content {
+  margin-top: 25%;
+}
+
+#bottle-shop-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+#shop-now-btn {
+  width: auto;
+  height: 43px;
+  background-color: #E36556;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  @media screen and (min-width: 495px) {
+    width: 170px;
+  }
+}
+
+.small-content-box-3 {
+  background: image-url('../assets/big_sale.png');
+  background-size:cover;
+  background-position:center center;
+  height: 220px;
+  background-color: rgba(255,255,255,0.87);
+  border-radius: 5px;
+}
+
+.medium-content-box {
+  background: image-url('../assets/upcoming_events.png');
+  background-size:cover;
+  background-position:center center;
+  height: 220px;
+  background-color: rgba(255,255,255,0.87);
+  border-radius: 5px;
+}
+
+.large-content-box {
+  background: image-url('../assets/american_sours.png');
+  background-size:cover;
+  background-position:center center;
+  height: 220px;
+  background-color: rgba(0,0,0,0.42);
+  border-radius: 5px;
+  margin-left: 20px;
+  text-align: right;
+  div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  p {
+    text-align: right;
+    font-family: "PT Serif";
+    font-size: 15px;
+    font-style: italic;
+    line-height: 32px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50%;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+}
+
+.margin-out {
+  margin-left: 10px;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+#header {
+  h1 {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
   }
 }
