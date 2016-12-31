@@ -20,19 +20,31 @@
 
 #header-text {
     h1 {
-        font-family: Futura;
-        font-size: 50px;
-        color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 45px;
+      color: #FFFFFF;
+      text-transform: uppercase;
     }
     p {
-        font-family: Futura;
-        font-size: 16px;
-        color: white;
+      font-family: "PT Serif";
+      font-size: 14px;
+      line-height: 22px;
+      color: #FFFFFF;
     }
 }
 
 .landing-button {
-   background: #E36556;
-   color: white;
-   text-decoration: none;
+  width: auto;
+  height: 43px;
+  background-color: #E36556;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
