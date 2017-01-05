@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 }
 
-header{
+header {
   z-index: 1;
   position:fixed;
   width:100%;
@@ -32,13 +32,13 @@ header{
   width: 100%;
 }
 
-.inner{
+.inner {
   min-height:400px;
   position: relative;
 }
 
 
-.copy{
+.copy {
   position:absolute;
   top:50%;
   height:10em;
