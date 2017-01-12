@@ -3,18 +3,6 @@
   <%= render 'layouts/html_top' %>
   <body>
     <%= render 'nav/nav' %>
-    <% unless @disable_cart_partial %>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-6">
-          <h1><%= link_to "My Store", root_path %></h1>
-        </div>
-        <div class="col-xs-6 text-right">
-          <h1 class="cart-text"><%= render 'layouts/cart_text' %></h1>
-        </div>
-      </div>
-      <hr>
-    <% end %>
     <%= yield %>
     <%= render 'nav/footer' %>
   </body>
