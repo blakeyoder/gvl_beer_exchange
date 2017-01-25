@@ -6,114 +6,26 @@
                     <span>Currently on tap</span>
                 </div>
             </div>
+            <% @beers["items"].each do |beer| %>
             <div class="col-md-12">
                  <div class="well tap-well">
                     <div class="row">
                         <div class="col-md-4">
-                            <p>Elysian Space Dust</p>
-                            <span id="sub-text">Elysian Brewing Company</span>
+                            <p><%= beer["name"] %></p>
+                            <span id="sub-text"><%= beer["brewery"] %></span>
                             <br>
-                            <span id="sub-text">Seattle, Washington</span>
+                            <span id="sub-text"><%= beer["brewery_location"] %></span>
                         </div>
                         <div class="col-md-4">
-                            <p>American IPA</p>
+                            <p><%= beer["style"] %></p>
                         </div>
                         <div class="col-md-4">
-                            <p><span id="abv">8.5%</span></p>
+                            <p><span id="abv"><%= beer["abv"] %>%</span></p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                 <div class="well tap-well">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>Elysian Space Dust</p>
-                            <span id="sub-text">Elysian Brewing Company</span>
-                            <br>
-                            <span id="sub-text">Seattle, Washington</span>
-                        </div>
-                        <div class="col-md-4">
-                            <p>American IPA</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p><span id="abv">8.5%</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                 <div class="well tap-well">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>Elysian Space Dust</p>
-                            <span id="sub-text">Elysian Brewing Company</span>
-                            <br>
-                            <span id="sub-text">Seattle, Washington</span>
-                        </div>
-                        <div class="col-md-4">
-                            <p>American IPA</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p><span id="abv">8.5%</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                 <div class="well tap-well">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>Elysian Space Dust</p>
-                            <span id="sub-text">Elysian Brewing Company</span>
-                            <br>
-                            <span id="sub-text">Seattle, Washington</span>
-                        </div>
-                        <div class="col-md-4">
-                            <p>American IPA</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p><span id="abv">8.5%</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                 <div class="well tap-well">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>Elysian Space Dust</p>
-                            <span id="sub-text">Elysian Brewing Company</span>
-                            <br>
-                            <span id="sub-text">Seattle, Washington</span>
-                        </div>
-                        <div class="col-md-4">
-                            <p>American IPA</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p><span id="abv">8.5%</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                 <div class="well tap-well">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>Elysian Space Dust</p>
-                            <span id="sub-text">Elysian Brewing Company</span>
-                            <br>
-                            <span id="sub-text">Seattle, Washington</span>
-                        </div>
-                        <div class="col-md-4">
-                            <p>American IPA</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p><span id="abv">8.5%</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>               
+            <% end %>
         </div>
     </div>
     <%= render 'layouts/about' %>

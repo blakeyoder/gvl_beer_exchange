@@ -22,6 +22,7 @@ gem 'jquery-rails'
 
 gem 'httparty'
 gem 'hashie'
+gem 'figaro'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'

@@ -1,8 +1,7 @@
 <%= render 'banner' %>
 
 <div class="container home-container">
-    <%= render 'layouts/tap_list' %>
+    <%= render 'layouts/tap_list', locals: {beers: @beers} %>
     <%= render 'layouts/content_boxes' %>
     <%= render 'events/event_layout', locals: {events: @events}%>
-    <%= @untappd %>
 </div>
