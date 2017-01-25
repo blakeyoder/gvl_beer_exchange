@@ -1,8 +1,9 @@
 class HomeController < ApplicationController
     before_filter :disable_cart_partial
     def home
-        @events = Event.all
-        @beers = Untappd.new.get_list(17868)
+    	untappd = Untappd.new
+        @events = untappd.get_events(2652)
+        @beers = untappd.get_list(17868)
     end
     
 end

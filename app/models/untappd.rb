@@ -7,7 +7,7 @@ require 'ostruct'
 
 class Untappd
   include HTTParty
-  base_uri = "https://business.untappd.com/api/v1"
+  @@base_uri = "https://business.untappd.com/api/v1"
   format :json
 
   def self.response_to_mash(response)
@@ -18,9 +18,13 @@ class Untappd
     end
   end
 
-  def get_list(menu_id, options={})
-    auth = {:username => Rails.application.secrets.UNTAPPD_EMAIL, :password => Rails.application.secrets.UNTAPPD_PASSWORD}
-    response = RestClient::Request.execute method: :get, url: "https://business.untappd.com/api/v1/sections/#{menu_id}/items", user: ENV['UNTAPPD_EMAIL'], password: ENV['UNTAPPD_PASSWORD']
+  def get_list(menu_id)
+    response = RestClient::Request.execute method: :get, url: @@base_uri + "/sections/#{menu_id}/items", user: ENV['UNTAPPD_EMAIL'], password: ENV['UNTAPPD_PASSWORD']
+    response = JSON.parse(response)
+  end
+
+  def get_events(location_id)
+    response = RestClient::Request.execute method: :get, url: @@base_uri + "/locations/#{location_id}/events", user: ENV['UNTAPPD_EMAIL'], password: ENV['UNTAPPD_PASSWORD']
     response = JSON.parse(response)
   end
 end

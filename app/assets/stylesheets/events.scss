@@ -3,9 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .event-box {
-  height: 320px;
+  min-height: 320px;
   padding-left: 30px;
   padding-right: 40px;
+  padding-bottom: 30px;
   background-color: #2F3439;
   background-clip: padding-box;
   border: 20px solid transparent;
@@ -28,4 +29,16 @@
     color: #FFFFFF;
     text-align: center;
   }
+  h2 {
+    color: #E36556;
+  }
+}
+
+.events_description {
+    font-family: "PT Serif", serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFF;
+    margin: 0;
+    padding: 0; 
 }
