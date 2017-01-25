@@ -1,0 +1,605 @@
+/* line 5, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/events.scss */
+.event-box {
+  min-height: 320px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  background-color: #2F3439;
+  background-clip: padding-box;
+  border: 20px solid transparent;
+}
+/* line 13, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/events.scss */
+.event-box h2 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+/* line 22, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/events.scss */
+#header h1 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 32, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/events.scss */
+#header h2 {
+  color: #E36556;
+}
+
+/* line 37, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/events.scss */
+.events_description {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+/* line 5, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+body {
+  background: #ebebeb;
+}
+
+/* line 9, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+header {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 23, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#hero1 {
+  background: url(/images/../assets/landing-bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 29, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.hero, .content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+/* line 35, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.inner {
+  min-height: 400px;
+  position: relative;
+}
+
+/* line 41, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.copy {
+  position: absolute;
+  top: 50%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+  text-align: left;
+}
+
+/* line 50, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#hero-text {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+/* line 61, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#hero-sub-text {
+  display: block;
+  font-family: "PT Serif";
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+/* line 69, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* line 75, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.home-container {
+  margin-top: 50px;
+}
+
+/* line 79, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.rounded-box {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* line 84, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.img-responsive {
+  margin-bottom: 30px;
+}
+
+/* line 88, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#tap-header {
+  height: 43px;
+  background-color: #2F3439;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  padding: 10px;
+}
+/* line 95, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#tap-header span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* line 101, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.tap-well {
+  background-color: #2F3439;
+  min-height: 105px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+}
+/* line 107, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.tap-well #abv {
+  font-family: 'Montserrat', sans-serif;
+  color: #E36556;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+/* line 115, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#sub-text {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #CBCBCB;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 124, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.about-well {
+  height: auto;
+  background-color: #2F3439;
+  border-radius: 5px;
+  border: 0;
+}
+/* line 129, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.about-well #about-text {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+/* line 137, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.about-well #about-sub-text {
+  font-family: "PT Serif";
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+/* line 145, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.hours-well {
+  background-color: #2F3439;
+  border-radius: 5px;
+  border: 0;
+}
+/* line 149, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.hours-well #hours {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+/* line 158, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.hours-well span {
+  font-family: "PT Serif";
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+/* line 166, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.small-content-box {
+  background: url(/images/../assets/new_in_stock.png);
+  background-size: cover;
+  background-position: center center;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.36);
+  border-radius: 5px;
+  text-align: center;
+}
+/* line 174, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.small-content-box div {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  position: relative;
+  top: 45%;
+}
+@media screen and (max-width: 440px) {
+  /* line 174, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+  .small-content-box div {
+    font-size: 20px;
+  }
+}
+
+/* line 191, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.small-content-box-2 {
+  background-size: cover;
+  background-position: center center;
+  height: 220px;
+  background-color: #2F3439;
+  border-radius: 5px;
+  text-align: center;
+}
+/* line 198, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.small-content-box-2 p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+/* line 210, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#bottle-shop-content {
+  position: relative;
+  top: 25%;
+}
+
+/* line 215, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#bottle-shop-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+/* line 225, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+#shop-now-btn {
+  width: auto;
+  height: 43px;
+  background-color: #E36556;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 495px) {
+  /* line 225, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+  #shop-now-btn {
+    width: 170px;
+  }
+}
+
+/* line 242, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.inner-box {
+  padding: 20px;
+}
+
+/* line 246, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.small-content-box-3 {
+  background: url(/images/../assets/big_sale.png);
+  background-size: cover;
+  background-position: center center;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 5px;
+}
+/* line 253, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.small-content-box-3 div {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  position: relative;
+  top: 45%;
+}
+/* line 264, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.small-content-box-3 p {
+  font-family: "PT Serif";
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  position: relative;
+  top: 52%;
+}
+
+/* line 277, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.medium-content-box {
+  background: url(/images/../assets/upcoming_events.png);
+  background-size: cover;
+  background-position: center center;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 5px;
+}
+/* line 284, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.medium-content-box #events-text {
+  width: 202px;
+  height: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #3C3D48;
+  position: relative;
+  top: 50%;
+  text-transform: uppercase;
+}
+/* line 297, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.medium-content-box p {
+  text-align: left;
+  font-family: "PT Serif";
+  opacity: 0.5;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 19px;
+  letter-spacing: 1px;
+  color: #5B5D69;
+  position: relative;
+  top: 50%;
+}
+
+/* line 311, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.large-content-box {
+  background: url(/images/../assets/american_sours.png);
+  background-size: cover;
+  background-position: center center;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.42);
+  border-radius: 5px;
+  text-align: right;
+}
+/* line 319, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.large-content-box div {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 2px;
+  position: relative;
+  top: 50%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+/* line 330, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.large-content-box p {
+  text-align: right;
+  font-family: "PT Serif";
+  font-size: 15px;
+  font-style: italic;
+  line-height: 32px;
+  letter-spacing: 2px;
+  position: relative;
+  top: 50%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+/* line 344, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.margin-out {
+  margin-left: 10px;
+}
+
+/* line 348, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/home.scss */
+.margin-top {
+  margin-top: 20px;
+}
+/* line 4, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/products.scss */
+.product-sort-well {
+  height: auto;
+  background-color: #252525;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+}
+/* line 4, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 9, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+#landing-body {
+  background: url(/images/../assets/landing-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* line 17, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+.centered {
+  margin-top: 200px;
+}
+
+/* line 22, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+#header-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 45px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+/* line 30, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+#header-text p {
+  font-family: "PT Serif";
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+/* line 38, /Users/blakeyoder/WebDev/Projects/gbx/app/assets/stylesheets/static_pages.scss */
+.landing-button {
+  width: auto;
+  height: 43px;
+  background-color: #E36556;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/*site wide fix on the nav bar*/
+
+body {
+  background-color: #2B2B2B;
+}
+
+.no-margin {
+    margin-bottom: 0px;
+}
+
+.navbar {
+    background-color: #2B2B2B;
+    border: 0;
+    min-height: 100px;
+}
+
+.navbar-right {
+	margin-top: 25px;
+}
+
+.navbar-brand {
+  height: 100px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.navbar-toggle {
+	margin-top: 35px;
+	border: none;
+}
+
+.navbar-header {
+	margin-bottom: 12px;
+}
+
+/*footer styles*/
+.footer {
+  	min-height: 475px;
+  	width: 100%;
+  	background-color: #22201F;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.footer__header {
+	margin-top: 55px;
+}
+
+#footer__email-input {
+	height: 45px;
+	opacity: 0.1;
+	border: 2px solid #FFFFFF;
+	border-radius: 3px;
+}
+
+#footer__header-text {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+.subscribe-container {
+	margin-top: 40px;
+}
+
+.footer__content-container {
+	margin-top: 23px;
+}
+
+#footer__copy {
+	opacity: 0.5;
+	font-family: "PT Serif";
+	font-size: 14px;
+	text-align: center;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.footer__image {
+	min-width: 150px;
+	margin: auto;
+	display: block;
+	margin-top: 23px;
+}
+
