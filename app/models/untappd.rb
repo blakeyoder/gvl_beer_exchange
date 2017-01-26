@@ -26,5 +26,10 @@ class Untappd
   def get_events(location_id)
     response = RestClient::Request.execute method: :get, url: @@base_uri + "/locations/#{location_id}/events", user: ENV['UNTAPPD_EMAIL'], password: ENV['UNTAPPD_PASSWORD']
     response = JSON.parse(response)
+    results = []
+    response["events"].each do |hash|
+      results << hash if hash["start_time"] > (Time.now + 2*60*60) # 2 hour buffer period
+    end
+    return results
   end
 end
