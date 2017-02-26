@@ -1,6 +1,7 @@
-<% unless @events.blank? %>
-  <div id="header">
-    <h1>News/Events</h1>
+
+<div id="header">
+  <h1>News/Events</h1>
+<% if !@events.blank? %>
     <div class="row">
       <% @events.each do |event| %>
           <div class="col-md-4 col-xs-12 event-box">
@@ -9,5 +10,7 @@
           </div>
       <% end %>
     </div>
-  </div>
+<% else %>
+  <h2>Check back later for more!</h2>
 <% end %>
+</div>
