@@ -29,9 +29,13 @@
     color: #FFFFFF;
     text-align: center;
   }
-  h2 {
-    color: #E36556;
-  }
+}
+
+.events--no_events {
+  color: #E36556;
+  text-align: center;
+  font-family: "PT Serif", serif;
+  padding-bottom: 20px;
 }
 
 .events_description {

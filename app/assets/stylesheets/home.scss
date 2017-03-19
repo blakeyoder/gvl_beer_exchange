@@ -122,7 +122,6 @@ p {
 }
 
 .about-well {
-  height: auto;
   background-color: #2F3439;
   border-radius: 5px;
   border: 0;
@@ -142,26 +141,6 @@ p {
   }
 }
 
-.hours-well {
-  background-color: #2F3439;
-  border-radius: 5px;
-  border: 0;
-  #hours {
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 22px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-  span {
-    font-family: "PT Serif";
-    font-size: 14px;
-    line-height: 22px;
-    color: #FFFFFF;
-  }
-}
 
 .small-content-box {
   background: image-url('../assets/new_in_stock.png');
@@ -348,3 +327,4 @@ p {
 .margin-top {
   margin-top: 20px;
 }
+

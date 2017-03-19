@@ -1,4 +1,3 @@
-require 'httparty'
 require 'hashie'
 require 'rest-client'
 require 'digest/md5'
@@ -6,9 +5,7 @@ require 'json'
 require 'ostruct'
 
 class Untappd
-  include HTTParty
   @@base_uri = "https://business.untappd.com/api/v1"
-  format :json
 
   def self.response_to_mash(response)
     if response.code == 200
