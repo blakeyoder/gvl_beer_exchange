@@ -20,7 +20,8 @@ gem 'coffee-rails', '~> 4.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-gem 'httparty'
+gem 'mailchimp-api'
+gem 'gibbon', :git => 'https://github.com/amro/gibbon.git'
 gem 'hashie'
 gem 'figaro'
 

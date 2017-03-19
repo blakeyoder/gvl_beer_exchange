@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   resource :cart, only: [:show]
   resources :order_items, only: [:create, :update, :destroy]
   get '/home', to: 'home#home'
+  post 'emailapi/subscribe' => 'emailapi#subscribe'
 
 end
