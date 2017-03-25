@@ -97,9 +97,34 @@ body {
 }
 
 .footer__image {
-	max-width: 200px;
+	max-width: 300px;
 	margin: auto;
 	display: block;
 	margin-top: 23px;
+}
+
+.subscribe-container {
+	text-align: center;
+}
+.override{
+    width: 225px;
+    background-color: #E36556;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: auto;
+}
+@media (max-width: 768px) {
+
+  .override{
+      margin-top: 15px;
+  }
+
 }
 

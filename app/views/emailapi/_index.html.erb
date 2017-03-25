@@ -6,10 +6,9 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2 subscribe-container">
-                  <p>Give me your email and keep up to date on my cat's thoughts.</p>
-                  <%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe", remote: "true") do -%>
-                    <%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %>
-                    <%= submit_tag("Sign me up!") %>
+                  <%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe", remote: "true", class: "form-inline") do -%>
+                    <%= email_field(:email, :address, {class: "form-control", id: "email", placeholder: "email address"}) %>
+                    <%= submit_tag("Sign me up!", {class: "form-control override"}) %>
                   <% end %>
                 </div>
             </div>
@@ -19,7 +18,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 footer__content-container">
                     <p id="footer__copy">
-                        Watermelon is a vine-like flowering plant originally from southern Africa. It is a large, sprawling annual plant with coarse, hairy pinnately-lobed leaves and white to yellow flowers. It is grown for its edible fruit, also known as a watermelon, which is a special kind of berry botanically called a pepo.
+                        Greenville Beer Exchange &copy; 2017
                     </p>
                 </div>
             </div>
