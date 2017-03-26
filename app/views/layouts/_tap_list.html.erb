@@ -10,16 +10,22 @@
             <div class="col-md-12">
                  <div class="well tap-well">
                     <div class="row">
+                        <% link = "https://untappd.com/b/" + beer['untappd_beer_slug'] + "/" + beer['untappd_id'].to_s %>
+                        <div class="col-md-2">
+                            <a href="<%= link %>">
+                                <%= image_tag(beer["label_image"], :class => "img_preview") %>
+                            </a>
+                        </div>
                         <div class="col-md-4">
                             <p><%= beer["name"] %></p>
                             <span id="sub-text"><%= beer["brewery"] %></span>
                             <br>
                             <span id="sub-text"><%= beer["brewery_location"] %></span>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <p><%= beer["style"] %></p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <p><span id="abv">ABV: <%= beer["abv"] %></span></p>
                         </div>
                     </div>
