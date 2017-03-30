@@ -28,7 +28,7 @@ class Untappd
         response = JSON.parse(response)
         results = []
         response["events"].each do |hash|
-          results << hash if hash["start_time"] > (Time.now + 2*60*60) # 2 hour buffer period
+          results << hash if hash["start_time"] > (Time.now + 2*120) #buffer period
         end
         return results
     end
