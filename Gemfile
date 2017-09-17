@@ -31,6 +31,10 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'rest-client'
 
+# store gems
+gem 'solidus'
+gem 'solidus_auth_devise'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'sqlite3'
